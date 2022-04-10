@@ -1,0 +1,71 @@
+.quemSomos{
+    background: linear-gradient(302.69deg, rgba(0, 0, 0, 0.126) 8.33%, rgba(0, 0, 0, 0) 37.85%), linear-gradient(130.16deg, rgba(0, 0, 0, 0.15) -7.07%, rgba(0, 0, 0, 0) 34.02%), rgba(255, 200, 0, 0.84);
+    padding-top: 100px;
+    display: flex;
+}
+.left{
+    width: 55vw;
+}
+.right{
+    width: 45vw;
+}
+.titleQuemSomos{
+    width: 80%;
+    margin: 0 auto;
+    background: #b11d1d;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px 10px;
+}
+.titleQuemSomos p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 42px;
+    color: #fff;
+}
+.titleMaps{
+    display: flex;
+}
+.linkMaps{
+    width: 25%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #b11d1d;
+    border: solid 2px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkMaps a{
+    width: 60%;
+    font-family: arial;
+    color: #fff;
+    transition: 0.5s;
+}
+.linkMaps a:hover{
+    color: #000;
+    transition: 0.5s;
+}
+iframe{
+    width: 95%;
+    height: 60vh;
+    border: solid;
+    border-radius: 50px;
+}
+.descriptionQuemSomos{
+    width: 70%;
+    margin: 10% auto;
+}
+.descriptionQuemSomos p{
+    text-align: center;
+    font-family: arial;
+    font-size: 28px;
+}
+.maps{
+    width: 70%;
+    margin: 0 auto;
+}
+.maps img{
+    width: 50%;
+}

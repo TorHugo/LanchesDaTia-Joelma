@@ -1,0 +1,48 @@
+@media (max-width: 1024px){
+    .optionsMenu a, .check, .nameHamb, .precoHamb, .subtrair, .adicionar, .resultado, .cadastro {
+        font-size: 16px;
+    }
+    .titlePrinc, .footerPrinc, .titleQuemSomos p{
+        font-size: 32px;
+    }
+    .descriptionQuemSomos p, .redes a{
+        font-size: 22px;
+    }
+    .linkMaps a{
+        width: 80%;
+    }
+    .categorias button{
+        font-size: 12px;
+    }
+    .cardapio{
+        height: 90%;
+    }
+    .menuCard{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 950px){
+        .optionsMenu a, .check, .nameHamb, .precoHamb, .subtrair, .adicionar, .resultado{
+            font-size: 14px;
+        }
+        .titlePrinc, .footerPrinc, .titleQuemSomos p{
+            font-size: 24px;
+        }
+        .imageHamb{
+            width: 100px;
+            height: 100px;
+        }
+        .subtrair, .adicionar, .resultado {
+            width: 40px;
+            height: 40px;
+        }
+        .cadastro {
+            font-size: 12px;
+        }
+        .cardapio{
+            height: 90%;
+        }
+        .categorias button{
+            width: 18%;
+        }
+    }
+}

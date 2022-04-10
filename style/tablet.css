@@ -1,0 +1,44 @@
+@media (max-width: 768px){
+    .optionsMenu a, .check, .nameHamb, .precoHamb, .subtrair, .adicionar, .resultado, .cadastro{
+        font-size: 12px;
+    }
+    .titlePrinc, .footerPrinc, .titleQuemSomos p{
+        font-size: 24px;
+    }
+    .titlePrinc{
+        margin-top: 100px;
+        width: 80%;
+    }
+    .footerPrinc, .check{
+      margin: 25% auto;  
+    }
+    .descriptionQuemSomos p, .redes a{
+        font-size: 18px;
+    }
+    .quemSomos{
+        flex-direction: column;
+    }
+    .left, .right{
+        margin: 0 auto;
+    }
+    .titleQuemSomos{
+        width: 100%;
+        height: 15vh;
+    }
+    .descriptionQuemSomos{
+        width: 80%;
+    }
+    .maps{
+        width: 50%;
+    }
+    .maps img{
+        width: 70%;
+    }
+    .right{
+        width: 60%;
+    }
+    iframe{
+        width: 60vw;
+        height: 100%;
+    }
+}

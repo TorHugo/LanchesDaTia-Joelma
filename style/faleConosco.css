@@ -1,0 +1,63 @@
+.sectionFooter{
+    background: #FFC065;
+    padding-bottom: 10px;
+}
+.faleConosco{
+    width: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.faleConosco p{
+    font-family: 'Calistoga', cursive;
+    font-size: 36px;
+    color: #e30000;
+}
+.textFooter{
+    width: 50%;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px auto;
+}
+.titleFooter{
+    text-align: center;
+}
+.inputText{
+    width: 80%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.inputText input, select{
+    padding: 10px;
+    margin-top: 10px;
+    width: 70%;
+}
+.d-Flex{
+    display: flex;
+    justify-content: flex-end;
+}
+.message{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.message textarea{
+    width: 100%;
+    height: 250px;
+    border-bottom: 3px solid #000;
+}
+.btnEnvio{
+    width: 5%;
+    margin: 0 auto;
+}
+.btnEnvio button{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #b11d1d;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
